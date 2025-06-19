@@ -8,7 +8,7 @@
     tools:context=".DetailedView">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgView"
         android:layout_width="560dp"
         android:layout_height="1082dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,7 +33,8 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.699" />
+        app:layout_constraintVertical_bias="0.699"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnCalculate"
@@ -50,7 +51,8 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.82"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnReturn"
@@ -66,7 +68,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941" />
+        app:layout_constraintVertical_bias="0.941"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/txtCalculation"
