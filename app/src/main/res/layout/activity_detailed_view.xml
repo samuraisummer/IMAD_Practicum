@@ -7,11 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".DetailedView">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="560dp"
+        android:layout_height="1082dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hd_wallpaper_black_music___copy" />
+
     <Button
         android:id="@+id/btnList"
         android:layout_width="287dp"
         android:layout_height="72dp"
         android:background="#2196F3"
+        android:backgroundTint="#9B1212"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="List of Songs"
         android:textSize="24sp"
@@ -61,6 +72,7 @@
         android:id="@+id/txtCalculation"
         android:layout_width="316dp"
         android:layout_height="99dp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -72,6 +84,7 @@
         android:id="@+id/txtList"
         android:layout_width="348dp"
         android:layout_height="182dp"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"

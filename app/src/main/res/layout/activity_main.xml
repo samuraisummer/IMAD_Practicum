@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="518dp"
+        android:layout_height="1153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hd_wallpaper_black_music___copy" />
+
     <Button
         android:id="@+id/btnExit"
         android:layout_width="295dp"
@@ -58,7 +68,7 @@
         android:layout_height="80dp"
         android:fontFamily="serif"
         android:text="Playlist Manager App"
-        android:textColor="#000000"
+        android:textColor="#EFEFEF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,13 +82,14 @@
         android:id="@+id/edtSongTitle"
         android:layout_width="290dp"
         android:layout_height="72dp"
-        android:layout_marginBottom="656dp"
+        android:layout_marginBottom="604dp"
         android:ems="10"
         android:hint="Song Title"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
@@ -88,6 +99,7 @@
         android:ems="10"
         android:hint="Rating (1 - 5)"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
@@ -102,6 +114,7 @@
         android:ems="10"
         android:hint="Comments"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
@@ -116,6 +129,7 @@
         android:ems="10"
         android:hint="Artist Name"
         android:inputType="text"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.082"
